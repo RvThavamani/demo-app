@@ -1,0 +1,509 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;  
+}
+.BackgroundPage{
+    width: 100%;
+    height: 60em;
+    /* background-image: linear-gradient(125deg,rgb(255, 0, 76),rgb(1, 1, 201)); */
+    background-color: white;
+}
+.Container{
+    background-color: rgb(241, 241, 247);
+    width: 60%;
+    height: 55em;
+    margin: auto;
+    margin-top:2.3em;
+    border-radius: 1em;
+}
+.BackgroundLayer{
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    margin-top:2.75em;
+    display: flex;
+    justify-content: space-around;
+
+}
+.Childs{
+
+    width: 31%;
+    height: 90%;
+    margin-top:0.7em;
+    border-radius: 2em;
+    background-image: linear-gradient(to top,rgb(246, 246, 249),rgb(246, 246, 249),white);
+    
+}
+.Header{
+    width: 95%;
+    height: 5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Icons{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.TimeText{
+    font-weight: bold;
+    color: rgb(7, 2, 60);
+    margin-left: -3em;
+    margin-top: 1em;
+}
+.Icon{
+    width: 30%;
+    height: 100%;
+    color: black;
+    font-weight: bold;
+    margin-top: 1em;
+}
+.MiddleChild{
+    margin-top: 5em;
+    overflow-y: auto;
+}
+.MiddleTop{
+    width: 100%;
+    height: 60%;
+    margin:auto;
+    background-size: cover;
+}
+.MiddleTopLayer{
+    width: 20.4em;
+    height: 23em;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.04), rgb(221, 255, 0,1));
+    position: absolute;
+}
+.MiddleTopLayer1{
+    width: 20.4em;
+    height: 17em;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.04), rgb(221, 255, 0,1));
+    position: absolute;
+}
+.MiddleTopLayer2{
+    width: 20.4em;
+    height: 7em;
+    background-color:rgba(221, 255, 0) ;
+    position: absolute;
+    margin-top: 17em;
+}
+.FcLogo{
+    width:5em;
+    height: 5em;
+    margin: auto;
+    border: 1px solid;border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(225, 255, 0);
+    margin-top: 7rem;
+
+}
+h2{
+    text-align: center;
+    color: rgb(2, 39, 72);
+    margin-top: .7em;
+    font-family: sans-serif;
+
+}
+.ManageTeam{
+    width: 12em;
+    height: 1.5em;
+    background-color: rgb(0, 0, 119);
+    border-radius: 2em;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+    padding:.4em;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(254, 254, 253);
+    box-shadow: 2px 2px 3px rgb(242, 243, 241);
+}
+p{
+    margin-top:.5em;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.MiddleBottom{
+    width: 20.4em;
+    height: 24em;
+    background-color: rgb(253, 253, 252);
+    position: absolute;
+    margin-top:-6.18em;
+    border-radius: 2em;
+
+}
+.TopLayer{
+    width: 17%;
+    height:.3em;
+    background-color: rgb(221, 224, 238);
+    margin: auto;
+    margin-top: .5em;
+    border-radius: 1em;
+}
+.TeamRank{
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 1.2em;
+    margin-top: 1em;
+}
+.Table{
+    width: 100%;
+    height: 45%;
+    margin: auto;
+    background-color: rgb(245, 245, 245);
+    color: rgb(138, 139, 140);
+}
+th{
+    height: 25%;
+    font-size: small;
+    font-family: sans-serif;
+    background-color: white;
+}
+.pos{
+    width: 15%; 
+    text-align: right;
+   
+}
+.pct{
+    width: 19%;
+    text-align: center;
+
+}
+.pctdata{
+    color: rgb(67, 69, 71);
+}
+.l{
+    width: 12%;
+     text-align: center;
+}
+.w{
+    width: 12%;
+    text-align: center;
+}
+.posdata{
+    text-align: center;
+    color: rgb(15, 17, 18);
+}
+.east{
+text-align: left;
+    
+}
+.LatestName{
+    margin-left: -12em;
+    font-weight: bold;
+}
+.east span{
+    position: absolute;
+    margin-left: 1.3em;
+    margin-top: -1em;
+    color: rgb(38, 37, 37);
+  
+}
+.profile{
+    width: 5em;
+    color: rgb(125, 126, 127);
+}
+
+.eastName{
+    margin-top: -2em;
+}
+.LatNews{
+    width: 93%;
+    height:9em;
+    margin-top: 1em;
+    margin-left: 7%;display: flex;
+    justify-content: space-between;
+}
+.News{
+    width: 48%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.FirstNews{
+    border-top-right-radius: 1.5em;
+    border-top-left-radius: 1.5em;
+    background-size: cover;
+}
+.SecondNews{
+    border-top-left-radius: 1.5em;
+    background-size: cover;
+}
+.Like{
+    background-color: rgb(240, 4, 98);
+    width: 4em;
+    height: 1.5em;
+    margin-top: -300px;
+    position: absolute;
+    border-radius: 2em;
+    margin-left: 4em;
+    color: white;
+    padding-left: .7em;
+    padding-top: .5em;
+    font-weight: bold;
+    word-spacing:.5em;
+
+}
+.MatcheAndResults{
+    width: 17.5em;
+    height: 3em;
+    margin-top: .7em;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.IconChild{
+    width: 10%;
+    height: 90%;
+    font-weight: bold;
+    color: rgb(31, 30, 30);
+    margin-top: 1em;
+}
+.TextChild{
+    width: 70%;
+    height: 90%;
+    font-weight: bold;
+    color: rgb(31, 30, 30);
+    text-align: center;
+    margin-top: 1em;
+}
+.LeagueHead{
+    width: 17.5em;
+    height: 1.7em;
+    border-radius: 2em;
+    background-color: rgb(252, 252, 251);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(234, 233, 233);
+}
+.LeagueLeft{
+    width: 9.5em;
+    height: 1.5em;
+    background-color: rgb(253, 235, 75);
+    border-radius: 2em;
+    position: absolute;
+    margin-top: .115em;
+    margin-left: .12em;
+
+}
+.LeagueRight{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(244, 244, 242);
+    margin-left: 6em;
+    padding: .3em;
+    text-align: end;
+
+}
+.LeagueRight span{
+    margin-left: 1em;
+    font-size: small;
+    padding-left: 1em;
+        
+}
+.LeagueLeft span{
+    font-size: small;
+    padding-left: 1em;
+    
+}
+.FootBallIcon{
+    font-size: small;
+    padding-left: 3em;
+    margin-top: 1em;
+}
+.Laliga{
+    margin-left: -1em;
+}
+.KingIcon{
+    font-size: small;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.MatchList{
+    width:17.5em ;
+    margin: auto;
+    height: 11%;
+    margin-top: 1.3em;
+    border-radius: 1em;
+    background-color: rgb(247, 247, 248);
+    box-shadow: 1px 1px 35px 1px rgb(233, 230, 230);
+}
+.MatchListTop{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.MatchLIstChild1 , .MatchLIstChild3{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    margin-top: 1.5em;
+}
+.MLC1{
+width: 50%;
+height: 50%;
+
+}
+.MLC2{
+    width: 35%;
+    height: 50%;
+    margin-left: 1em;
+    color: rgb(3, 0, 149);
+
+    }
+
+ .MLCtimeDate{
+    font-size: small;
+    margin-top: .7em;
+ }  
+ .MLCdate{
+    color: rgb(252, 17, 17);
+ } 
+ .MLCtime{
+    color: grey;
+
+    }
+    .ind{
+        margin-left: 1.6em;
+        font-family: sans-serif;
+        color: rgb(15, 0, 0);
+    }
+    .lank{
+        margin-left: -.7em;
+        font-family: sans-serif;
+        color: rgb(15, 0, 0);
+    }
+.MatchListBottom{
+    width: 100%;
+    height: 15%;
+    font-size: small;
+    text-align: center;
+    margin-top: .5em;
+}
+.Livedate{
+    color:gray;
+} 
+.MatchLIstChild1, .MatchLIstChild3{
+    color: rgb(251, 18, 18);
+}
+.LiveTable{
+    padding-top: .6em;
+    width:17.5em ;
+    margin: auto;
+    height: 19%;
+    margin-top: 1.3em;
+    border-radius: 1em;
+    background-color: rgb(247, 247, 248);
+    box-shadow: 1px 1px 35px 1px rgb(233, 230, 230);
+
+}
+.LiveLogo{
+    margin-left: .5em;
+    font-size: 1.7em;
+    color:gray;
+}
+.Live{
+    background-color: red;
+    width: 4em;
+    height: 1.5em;
+    border-radius: 2em;
+    margin-top: -8.7em;
+    position: absolute;
+    margin-left: 6.7em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: .2em;
+}
+.MatchState{
+    width:17.5em ;
+    margin: auto;
+    height: 30%;
+    margin-top: 1.3em;
+    border-radius: 1em;
+    background-image:linear-gradient(to bottom,rgb(234, 233, 233),white);
+    box-shadow: 1px 1px 35px 1px rgb(233, 230, 230);
+}
+.MStittle{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1em;
+}
+.Child{
+    width: 100%;
+    height: 11%;
+    border: .3px solid rgb(230, 227, 227,0.3);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: .2em;
+}
+.point{
+    width: 33%;
+
+}
+.points{
+    text-align: center;
+    font-size: small;
+    color: grey;
+}
+.p1{
+    text-align: end;
+    font-size: small;
+    color: grey;
+}
+.p2{
+    text-align: start;
+    font-size: small;
+    color: grey;
+}
+.stateBall{
+    margin-top: 2em;
+    color: grey;
+    font-weight: bolder;
+}
+
+.footer{
+    background-color: rgb(252, 252, 252);
+    height: 3em;
+    width: 20.41em;
+    position: absolute;
+    margin-top: -3.37em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+	box-shadow: 0 -5px 26px -5px rgb(196, 195, 195);
+    display: flex;
+    justify-content: space-between;
+			
+}
+.FooterChilds{
+    width: 23%;
+    height: 90%;
+    font-weight: bolder;
+    color: rgb(168, 170, 170);
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.fcHome{
+    color: rgb(20, 0, 149);
+}
+
+
+
+
+
+
+
+
+
+
